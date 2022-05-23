@@ -1,0 +1,29 @@
+{
+  "name": "employeetrackercms",
+  "version": "1.0.0",
+  "description": "An employee tracker applicaiton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajNori/EmployeeTrackerCMS.git"
+  },
+  "author": "Raj Nori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajNori/EmployeeTrackerCMS"
+  },
+  "homepage": "https://github.com/RajNori/EmployeeTrackerCMS",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}

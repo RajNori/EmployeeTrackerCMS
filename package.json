@@ -19,11 +19,13 @@
   "homepage": "https://github.com/RajNori/EmployeeTrackerCMS",
   "dependencies": {
     "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
     "inquirer": "^7.3.3",
-    "mysql2": "^2.2.5"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16"
   },
   "directories": {
     "lib": "lib"
-  },
-  "devDependencies": {}
+  }
 }

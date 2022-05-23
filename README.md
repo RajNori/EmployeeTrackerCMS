@@ -71,8 +71,7 @@ List the ready features here:
 - Shows company employee data
 - Let's the user add data
 - Let's the user Read data
-- Let's the user Update employee data
-- 
+- Let's the user Update employee data 
 
 
 

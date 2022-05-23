@@ -16,16 +16,16 @@ INSERT INTO employee (
         manager_id,
         manager_confirm
     )
-VALUES ('Jerry', 'Underwood', 1, null, true),
-    ('Bob', 'Sheldon', 2, 1, false),
-    ('Jason', 'Mendoza', 2, 1, false),
-    ('Alex', 'Jackson', 3, null, true),
-    ('Peter', 'Makah', 4, 2, false),
-    ('Suzie', 'Alisson', 4, 2, false),
-    ('John', 'Winger', 4, 2, false),
-    ('Pete', 'McFall', 5, null, true),
-    ('Alexis', 'Caper', 6, 3, false),
-    ('Mason', 'Jacobson', 6, 3, false);
+VALUES ('Jon', 'Duckett', 1, null, true),
+    ('Eric', 'Elliott', 2, 1, false),
+    ('Kyle', 'Simpson', 2, 1, false),
+    ('David', 'Flanagan', 3, null, true),
+    ('Brendan', 'Eich', 4, 2, false),
+    ('Ryan', 'Dah;', 4, 2, false),
+    ('Azat', 'Mardan', 4, 2, false),
+    ('Marijn', 'Haverbeke', 5, null, true),
+    ('David', 'Herron', 6, 3, false),
+    ('John', 'Resig', 6, 3, false);
 INSERT INTO manager (first_name, last_name)
 SELECT first_name,
     last_name
